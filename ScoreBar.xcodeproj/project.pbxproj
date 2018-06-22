@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78B704B20DD393900A21334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78B704A20DD393900A21334 /* AppDelegate.swift */; };
+		F78B704D20DD393A00A21334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78B704C20DD393A00A21334 /* Assets.xcassets */; };
+		F78B705020DD393A00A21334 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78B704E20DD393A00A21334 /* MainMenu.xib */; };
+		F78B705C20DD393A00A21334 /* ScoreBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78B705B20DD393A00A21334 /* ScoreBarTests.swift */; };
+		F78B706720DD393A00A21334 /* ScoreBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78B706620DD393A00A21334 /* ScoreBarUITests.swift */; };
+		F78B707520DD4A8400A21334 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78B707420DD4A8400A21334 /* StatusMenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78B705820DD393A00A21334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78B703F20DD393900A21334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78B704620DD393900A21334;
+			remoteInfo = ScoreBar;
+		};
+		F78B706320DD393A00A21334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78B703F20DD393900A21334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78B704620DD393900A21334;
+			remoteInfo = ScoreBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78B704720DD393900A21334 /* ScoreBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78B704A20DD393900A21334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F78B704C20DD393A00A21334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78B704F20DD393A00A21334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F78B705120DD393A00A21334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78B705220DD393A00A21334 /* ScoreBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScoreBar.entitlements; sourceTree = "<group>"; };
+		F78B705720DD393A00A21334 /* ScoreBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78B705B20DD393A00A21334 /* ScoreBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBarTests.swift; sourceTree = "<group>"; };
+		F78B705D20DD393A00A21334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78B706220DD393A00A21334 /* ScoreBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78B706620DD393A00A21334 /* ScoreBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBarUITests.swift; sourceTree = "<group>"; };
+		F78B706820DD393A00A21334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78B707420DD4A8400A21334 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78B704420DD393900A21334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B705420DD393A00A21334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B705F20DD393A00A21334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78B703E20DD393900A21334 = {
+			isa = PBXGroup;
+			children = (
+				F78B704920DD393900A21334 /* ScoreBar */,
+				F78B705A20DD393A00A21334 /* ScoreBarTests */,
+				F78B706520DD393A00A21334 /* ScoreBarUITests */,
+				F78B704820DD393900A21334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78B704820DD393900A21334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78B704720DD393900A21334 /* ScoreBar.app */,
+				F78B705720DD393A00A21334 /* ScoreBarTests.xctest */,
+				F78B706220DD393A00A21334 /* ScoreBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78B704920DD393900A21334 /* ScoreBar */ = {
+			isa = PBXGroup;
+			children = (
+				F78B704A20DD393900A21334 /* AppDelegate.swift */,
+				F78B704C20DD393A00A21334 /* Assets.xcassets */,
+				F78B704E20DD393A00A21334 /* MainMenu.xib */,
+				F78B705120DD393A00A21334 /* Info.plist */,
+				F78B705220DD393A00A21334 /* ScoreBar.entitlements */,
+				F78B707420DD4A8400A21334 /* StatusMenuController.swift */,
+			);
+			path = ScoreBar;
+			sourceTree = "<group>";
+		};
+		F78B705A20DD393A00A21334 /* ScoreBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78B705B20DD393A00A21334 /* ScoreBarTests.swift */,
+				F78B705D20DD393A00A21334 /* Info.plist */,
+			);
+			path = ScoreBarTests;
+			sourceTree = "<group>";
+		};
+		F78B706520DD393A00A21334 /* ScoreBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F78B706620DD393A00A21334 /* ScoreBarUITests.swift */,
+				F78B706820DD393A00A21334 /* Info.plist */,
+			);
+			path = ScoreBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78B704620DD393900A21334 /* ScoreBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78B706B20DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBar" */;
+			buildPhases = (
+				F78B704320DD393900A21334 /* Sources */,
+				F78B704420DD393900A21334 /* Frameworks */,
+				F78B704520DD393900A21334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreBar;
+			productName = ScoreBar;
+			productReference = F78B704720DD393900A21334 /* ScoreBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78B705620DD393A00A21334 /* ScoreBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78B706E20DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBarTests" */;
+			buildPhases = (
+				F78B705320DD393A00A21334 /* Sources */,
+				F78B705420DD393A00A21334 /* Frameworks */,
+				F78B705520DD393A00A21334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78B705920DD393A00A21334 /* PBXTargetDependency */,
+			);
+			name = ScoreBarTests;
+			productName = ScoreBarTests;
+			productReference = F78B705720DD393A00A21334 /* ScoreBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78B706120DD393A00A21334 /* ScoreBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78B707120DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBarUITests" */;
+			buildPhases = (
+				F78B705E20DD393A00A21334 /* Sources */,
+				F78B705F20DD393A00A21334 /* Frameworks */,
+				F78B706020DD393A00A21334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78B706420DD393A00A21334 /* PBXTargetDependency */,
+			);
+			name = ScoreBarUITests;
+			productName = ScoreBarUITests;
+			productReference = F78B706220DD393A00A21334 /* ScoreBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78B703F20DD393900A21334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Viv Lobo";
+				TargetAttributes = {
+					F78B704620DD393900A21334 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F78B705620DD393A00A21334 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F78B704620DD393900A21334;
+					};
+					F78B706120DD393A00A21334 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F78B704620DD393900A21334;
+					};
+				};
+			};
+			buildConfigurationList = F78B704220DD393900A21334 /* Build configuration list for PBXProject "ScoreBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78B703E20DD393900A21334;
+			productRefGroup = F78B704820DD393900A21334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78B704620DD393900A21334 /* ScoreBar */,
+				F78B705620DD393A00A21334 /* ScoreBarTests */,
+				F78B706120DD393A00A21334 /* ScoreBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78B704520DD393900A21334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78B704D20DD393A00A21334 /* Assets.xcassets in Resources */,
+				F78B705020DD393A00A21334 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B705520DD393A00A21334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B706020DD393A00A21334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78B704320DD393900A21334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78B707520DD4A8400A21334 /* StatusMenuController.swift in Sources */,
+				F78B704B20DD393900A21334 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B705320DD393A00A21334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78B705C20DD393A00A21334 /* ScoreBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B705E20DD393A00A21334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78B706720DD393A00A21334 /* ScoreBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78B705920DD393A00A21334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78B704620DD393900A21334 /* ScoreBar */;
+			targetProxy = F78B705820DD393A00A21334 /* PBXContainerItemProxy */;
+		};
+		F78B706420DD393A00A21334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78B704620DD393900A21334 /* ScoreBar */;
+			targetProxy = F78B706320DD393A00A21334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F78B704E20DD393A00A21334 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78B704F20DD393A00A21334 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F78B706920DD393A00A21334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F78B706A20DD393A00A21334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F78B706C20DD393A00A21334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScoreBar/ScoreBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F78B706D20DD393A00A21334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScoreBar/ScoreBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F78B706F20DD393A00A21334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreBar.app/Contents/MacOS/ScoreBar";
+			};
+			name = Debug;
+		};
+		F78B707020DD393A00A21334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreBar.app/Contents/MacOS/ScoreBar";
+			};
+			name = Release;
+		};
+		F78B707220DD393A00A21334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ScoreBar;
+			};
+			name = Debug;
+		};
+		F78B707320DD393A00A21334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScoreBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vivianlobo.com.ScoreBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ScoreBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78B704220DD393900A21334 /* Build configuration list for PBXProject "ScoreBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78B706920DD393A00A21334 /* Debug */,
+				F78B706A20DD393A00A21334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78B706B20DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78B706C20DD393A00A21334 /* Debug */,
+				F78B706D20DD393A00A21334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78B706E20DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78B706F20DD393A00A21334 /* Debug */,
+				F78B707020DD393A00A21334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78B707120DD393A00A21334 /* Build configuration list for PBXNativeTarget "ScoreBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78B707220DD393A00A21334 /* Debug */,
+				F78B707320DD393A00A21334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78B703F20DD393900A21334 /* Project object */;
+}
